@@ -2,11 +2,11 @@
 
 Author: Peter Staker
 
-Deployed URL:
+Deployed URL: [https://basic-auth-ps.herokuapp.com/](https://basic-auth-ps.herokuapp.com/)
 
-PR: [https://github.com/peterjast/basic-auth/pull/1](https://github.com/peterjast/basic-auth/pull/1);
+PR: [https://github.com/peterjast/basic-auth/pull/1](https://github.com/peterjast/basic-auth/pull/1)
 
-* tests report
+* tests [report](https://github.com/peterjast/basic-auth/actions/runs/787554694)
 
 ## Setup
 
@@ -14,7 +14,7 @@ PR: [https://github.com/peterjast/basic-auth/pull/1](https://github.com/peterjas
 
 * PORT - Port Number
 
-* MONGODB_URI - mongodb://localhost:27017/auth
+* MONGODB_URI - DEV -> mongodb://localhost:27017/auth
 
 ### Dependencies
 
