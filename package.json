@@ -1,0 +1,33 @@
+{
+  "name": "basic-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "jest --coverage --verbose --forceExit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@code-fellows/supergoose": "^1.1.0",
+    "base-64": "^1.0.0",
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "mongoose": "^5.10.15"
+  },
+  "config": {
+    "mongodbMemoryServer": {
+	"systemBinary": "/opt/homebrew/bin/mongod",
+	"arch": "x64",
+	"disablePostinstall": "1",
+	"version": "4.4.2",
+	"debug": "0"
+   }
+  } 
+}
